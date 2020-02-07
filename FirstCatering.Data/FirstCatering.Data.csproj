@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FirstCatering.Lib\FirstCatering.Lib.csproj" />
+    <ProjectReference Include="..\FirstCatering.Domain\FirstCatering.Domain.csproj" />
+  </ItemGroup>
+</Project>
